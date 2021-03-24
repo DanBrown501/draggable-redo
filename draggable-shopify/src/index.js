@@ -2,18 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import LetterA from './Components/LetterA'
-import LetterE from './Components/LetterE'
-import LetterI from './Components/LetterI'
-import LetterO from './Components/LetterO'
-import LetterU from './Components/LetterU'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <LetterA /><LetterE /><LetterI /><LetterO /><LetterU />
-    
   </React.StrictMode>,
   document.getElementById('root')
 );
